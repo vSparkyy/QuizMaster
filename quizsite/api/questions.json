@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question_text": "What is 2 + 2?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["2", "3", "4", "5"],
+        "answer_key": "4",
+        "marks": "1",
+        "topic": "Maths"
+    },
+    {
+        "id": 2,
+        "question_text": "Which of these are programming languages?",
+        "difficulty": "medium",
+        "question_type": "multi_select",
+        "options": ["Python", "HTML", "JavaScript", "CSS"],
+        "answer_key": ["Python", "JavaScript"],
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 3,
+        "question_text": "Multiples of 3",
+        "difficulty": "easy",
+        "question_type": "multiple_select",
+        "options": ["2", "3", "4", "6"],
+        "answer_key": ["3", "6"],
+        "marks": "2",
+        "topic": "Maths"
+    },
+    {
+        "id": 4,
+        "question_text": "Explain the concept of gravity.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Gravity is a force that attracts two bodies towards each other.",
+        "marks": 5,
+        "topic": "Physics"
+    }
+]
