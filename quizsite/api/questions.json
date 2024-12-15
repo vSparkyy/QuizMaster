@@ -38,5 +38,116 @@
         "answer_key": "Gravity is a force that attracts two bodies towards each other.",
         "marks": 5,
         "topic": "Physics"
+    },
+    {
+        "id": 5,
+        "question_text": "What is square root of 49?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["2", "7", "8", "5"],
+        "answer_key": "7",
+        "marks": "1",
+        "topic": "Maths"
+    },
+    {
+        "id": 6,
+        "question_text": "What country has the most islands?",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "options": ["canada", "sweden", "russia", "japan"],
+        "answer_key": "sweden",
+        "marks": "2",
+        "topic": "Geography"
+    },
+    {
+        "id": 7,
+        "question_text": "Who was the dictator that led Italy into WW2?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["Mussolini", "Hitler", "Goebbels", "Churchill"],
+        "answer_key": "Mussolini",
+        "marks": "1",
+        "topic": "History"
+    },
+    {
+        "id": 8,
+        "question_text": "Whivh of the below are not types of watches?",
+        "difficulty": "hard",
+        "question_type": "multiple_select",
+        "options": ["Pocket", "Mechanical", "Artificial", "Quantum"],
+        "options": ["Pocket", "Mechanical", "Artificial", "Quantum"],
+        "answer_key": ["Artificial","Quantum"]
+        "marks": "2",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 9,
+        "question_text": "Describe what is meant by perestroika",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The literal meaning of perestroika is "restructuring", referring to the restructuring of the political economy of the Soviet Union, in an attempt to end the Era of Stagnation.",
+        "marks": "5",
+        "topic": "History"
+    },
+    {
+        "id": 10,
+        "question_text": "What square root of -1?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["i", "1", "x", "0.5"],
+        "answer_key": "i",
+        "marks": "2",
+        "topic": "Maths"
+    },
+    {
+        "id": 11,
+        "question_text": "What is the only city located in both Europe and Asia?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["Istanbul", "Medina", "Moscow", "Kyiv"],
+        "answer_key": "Istanbul",
+        "marks": "1",
+        "topic": "Geography"
+    },
+    {
+        "id": 12,
+        "question_text": "What is the period of time called where the USA and the USSR engaged in political rivalry from 1945-1991?",
+        "difficulty": "Hard",
+        "question_type": "long_anwser",
+        "options": [],
+        "answer_key": "Cold War",
+        "marks": "2",
+        "topic": "History"
+    },
+    {
+        "id": 13,
+        "question_text": "What is the famous venue where the Mosconi Cup took place in 2022?",
+        "difficulty": "easy",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Alexandra Palace",
+        "marks": "4",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 14,
+        "question_text": "What is the possible values of x? x(x-8)(x-4)",
+        "difficulty": "hard",
+        "question_type": "multiple_select",
+        "options": ["8", "0", "5", "4"],
+        "answer_key": ["4", "8", "8"],
+        "marks": "3",
+        "topic": "Maths"
+    },
+    {
+        "id": 15,
+        "question_text": "What year did the most watched football game take place?",
+        "difficulty": medium",
+        "question_type": "multiple_choice",
+        "options": ["2022", "2018", "2020", "1966"],
+        "answer_key": "2022",
+        "marks": "2",
+        "topic": "Maths"
     }
 ]
