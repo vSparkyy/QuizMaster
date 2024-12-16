@@ -40,15 +40,15 @@ def save_completed_quiz(user, topic, questions, submitted_answers, difficulty):
             if submitted_answer == answer_key:
                 _marks += int(question["marks"])
 
-            elif question["question_type"] == "multiple_select":
-                total = 0
-                for answer in submitted_answer:
-                    if answer in answer_key:
-                        total += 1
-                    else:
-                        total -= 1
+        elif question["question_type"] == "multiple_select":
+            total = 0
+            for answer in submitted_answer:
+                if answer in answer_key:
+                    total += 1
+                else:
+                    total -= 1
+            _marks += max(0, total)
 
-                _marks += max(0, total)
         else:
             _marks += mark_answer(submitted_answer, answer_key, question['marks'])
 
