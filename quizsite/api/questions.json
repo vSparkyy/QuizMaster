@@ -75,7 +75,7 @@
         "difficulty": "hard",
         "question_type": "multiple_select",
         "options": ["Pocket", "Mechanical", "Artificial", "Quantum"],
-        "answer_key": ["Artificial", "Quantum"],
+        "answer_key": ["Artificial","Quantum"],
         "marks": "2",
         "topic": "General Knowledge"
     },
@@ -725,4 +725,5 @@
         "marks": "3",
         "topic": "Math"
     }
+    
 ]
