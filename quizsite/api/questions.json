@@ -85,7 +85,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "The literal meaning of perestroika is restructuring, referring to the restructuring of the political economy of the Soviet Union, in an attempt to end the Era of Stagnation.",
+        "answer_key": "The literal meaning of perestroika is restructuring, referring to the restructuring of the political economy of the Soviet Union, in an attempt to end the Era of Stagnation. (BOD)",
         "marks": "5",
         "topic": "History"
     },
@@ -205,7 +205,7 @@
         "difficulty": "medium",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Computers produce random numbers using mathematical formulas so essentialy no number is actually random",
+        "answer_key": "Computers produce random numbers using mathematical formulas so essentialy no number is actually random (BOD)",
         "marks": "2",
         "topic": "Computer Science"
     },
@@ -270,7 +270,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "'e' is a mathematical constant that is the base of the natural logarithm which lays the foundation of calculus and compound interest.",
+        "answer_key": "'e' is a mathematical constant that is the base of the natural logarithm which lays the foundation of calculus and compound interest. (BOD)",
         "marks": "3",
         "topic": "Math"
     },
@@ -365,7 +365,7 @@
         "difficulty": "medium",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "A lever works on the principle of moments, where the torque applied on one side of the fulcrum equals the torque on the other side.",
+        "answer_key": "A lever works on the principle of moments, where the torque applied on one side of the fulcrum equals the torque on the other side. (BOD)",
         "marks": "3",
         "topic": "Physics"
     },
@@ -385,7 +385,7 @@
         "difficulty": "medium",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Energy cannot be created or destroyed; it can only be transformed from one form to another.",
+        "answer_key": "Energy cannot be created or destroyed; it can only be transformed from one form to another. (BOD)",
         "marks": "2",
         "topic": "Physics"
     },
@@ -435,7 +435,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Entropy is a measure of the disorder or randomness in a system, and it tends to increase in an isolated system.",
+        "answer_key": "Entropy is a measure of the disorder or randomness in a system, and it tends to increase in an isolated system. (BOD)",
         "marks": "3",
         "topic": "Physics"
     },
@@ -460,7 +460,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "The photoelectric effect occurs when photons hit a material and eject electrons, demonstrating the particle nature of light.",
+        "answer_key": "The photoelectric effect occurs when photons hit a material and eject electrons, demonstrating the particle nature of light. (BOD)",
         "marks": "4",
         "topic": "Physics"
     },
@@ -511,11 +511,11 @@
     },
     {
         "id": 50,
-        "question_text": "Explain the difference between stack and heap memory.",
+        "question_text": "Explain the difference between a stack and a queue, explain what they are used for.",
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Stack memory stores local variables and function call information, while heap memory is used for dynamically allocated memory.",
+        "answer_key": "A stack is a Last In First Out (LIFO) data structure, while a queue is a First In First Out (FIFO) data structure. Stacks are used for function calls and memory management, while queues are used for scheduling and data processing. (BOD)",
         "marks": "4",
         "topic": "Computer Science"
     },
@@ -560,7 +560,7 @@
         "difficulty": "medium",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "The French Revolution was caused by social inequality, economic hardship, and the influence of Enlightenment ideas.",
+        "answer_key": "The French Revolution was caused by social inequality, economic hardship, and the influence of Enlightenment ideas. (BOD)",
         "marks": "3",
         "topic": "History"
     },
@@ -580,7 +580,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "The Treaty of Versailles ended WWI and imposed severe penalties on Germany, leading to economic turmoil and contributing to WWII.",
+        "answer_key": "The Treaty of Versailles ended WWI and imposed severe penalties on Germany, leading to economic turmoil and contributing to WWII. (BOD)",
         "marks": "4",
         "topic": "History"
     },
@@ -620,7 +620,7 @@
         "difficulty": "hard",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Earth's tectonic plates are large slabs of rock that float on the mantle. Their movements cause earthquakes at plate boundaries.",
+        "answer_key": "Earth's tectonic plates are large slabs of rock that float on the mantle. Their movements cause earthquakes at plate boundaries. (BOD)",
         "marks": "4",
         "topic": "Geography"
     },
@@ -691,7 +691,7 @@
         "difficulty": "medium",
         "question_type": "long_answer",
         "options": [],
-        "answer_key": "Photosynthesis is the process by which green plants use sunlight, carbon dioxide, and water to produce glucose and oxygen.",
+        "answer_key": "Photosynthesis is the process by which green plants use sunlight, carbon dioxide, and water to produce glucose and oxygen. (BOD)",
         "marks": "3",
         "topic": "General Knowledge"
     },
