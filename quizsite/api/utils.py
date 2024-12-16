@@ -33,18 +33,22 @@ def save_completed_quiz(user, topic, questions, submitted_answers, difficulty):
         answer_key = question["answer_key"]
         submitted_answer = submitted_answers.get(str(question["id"]), "")
 
-        if question["type"] == "multiple_choice":
+        if question["question_type"] == "multiple_choice":
             answer_key = answer_key.lower()
             submitted_answer = submitted_answer.lower()
 
             if submitted_answer == answer_key:
                 _marks += int(question["marks"])
 
-        elif question["type"] == "multiple_select":
-            for answer in answer_key:
-                if answer in submitted_answer:
-                    _marks += 1
+            elif question["question_type"] == "multiple_select":
+                total = 0
+                for answer in submitted_answer:
+                    if answer in answer_key:
+                        total += 1
+                    else:
+                        total -= 1
 
+                _marks += max(0, total)
         else:
             _marks += mark_answer(submitted_answer, answer_key, question['marks'])
 
@@ -62,11 +66,12 @@ def save_completed_quiz(user, topic, questions, submitted_answers, difficulty):
 
         marks += _marks
 
-    percentage = round((marks / total_marks) * 100, 2)
+    percentage = round((marks / total_marks) * 100, 2) if total_marks > 0 else 0
     for grade, min_percentage in grade_key.items():
         if percentage >= min_percentage:
             quiz.grade = grade
             break
+
     quiz.percentage = percentage
     quiz.save()
 

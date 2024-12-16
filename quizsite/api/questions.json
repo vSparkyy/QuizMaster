@@ -7,13 +7,13 @@
         "options": ["2", "3", "4", "5"],
         "answer_key": "4",
         "marks": "1",
-        "topic": "Maths"
+        "topic": "Math"
     },
     {
         "id": 2,
         "question_text": "Which of these are programming languages?",
         "difficulty": "medium",
-        "question_type": "multi_select",
+        "question_type": "multiple_select",
         "options": ["Python", "HTML", "JavaScript", "CSS"],
         "answer_key": ["Python", "JavaScript"],
         "marks": "2",
@@ -27,7 +27,7 @@
         "options": ["2", "3", "4", "6"],
         "answer_key": ["3", "6"],
         "marks": "2",
-        "topic": "Maths"
+        "topic": "Math"
     },
     {
         "id": 4,
@@ -36,7 +36,693 @@
         "question_type": "long_answer",
         "options": [],
         "answer_key": "Gravity is a force that attracts two bodies towards each other.",
-        "marks": 5,
+        "marks": 2,
         "topic": "Physics"
+    },
+    {
+        "id": 5,
+        "question_text": "What is square root of 49?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["2", "7", "8", "5"],
+        "answer_key": "7",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 6,
+        "question_text": "What country has the most islands?",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "options": ["Canada", "Sweden", "Russia", "Japan"],
+        "answer_key": "Sweden",
+        "marks": "2",
+        "topic": "Geography"
+    },
+    {
+        "id": 7,
+        "question_text": "Who was the dictator that led Italy into WW2?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["Mussolini", "Hitler", "Goebbels", "Churchill"],
+        "answer_key": "Mussolini",
+        "marks": "1",
+        "topic": "History"
+    },
+    {
+        "id": 8,
+        "question_text": "Whivh of the below are not types of watches?",
+        "difficulty": "hard",
+        "question_type": "multiple_select",
+        "options": ["Pocket", "Mechanical", "Artificial", "Quantum"],
+        "answer_key": ["Artificial", "Quantum"],
+        "marks": "2",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 9,
+        "question_text": "Describe what is meant by perestroika",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The literal meaning of perestroika is restructuring, referring to the restructuring of the political economy of the Soviet Union, in an attempt to end the Era of Stagnation.",
+        "marks": "5",
+        "topic": "History"
+    },
+    {
+        "id": 10,
+        "question_text": "What square root of -1?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["i", "1", "x", "0.5"],
+        "answer_key": "i",
+        "marks": "2",
+        "topic": "Math"
+    },
+    {
+        "id": 11,
+        "question_text": "What is the only city located in both Europe and Asia?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["Istanbul", "Medina", "Moscow", "Kyiv"],
+        "answer_key": "Istanbul",
+        "marks": "1",
+        "topic": "Geography"
+    },
+    {
+        "id": 12,
+        "question_text": "What is the period of time called where the USA and the USSR engaged in political rivalry from 1945-1991?",
+        "difficulty": "Hard",
+        "question_type": "long_anwser",
+        "options": [],
+        "answer_key": "Cold War",
+        "marks": "2",
+        "topic": "History"
+    },
+    {
+        "id": 13,
+        "question_text": "What is the famous venue where the Mosconi Cup took place in 2022?",
+        "difficulty": "easy",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Alexandra Palace",
+        "marks": "4",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 14,
+        "question_text": "What is the possible values of x? x(x-8)(x-4)",
+        "difficulty": "hard",
+        "question_type": "multiple_select",
+        "options": ["8", "0", "5", "4"],
+        "answer_key": ["4", "8", "8"],
+        "marks": "3",
+        "topic": "Math"
+    },
+    {
+        "id": 15,
+        "question_text": "What year did the most watched football game take place?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["2022", "2018", "2020", "1966"],
+        "answer_key": "2022",
+        "marks": "2",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 16,
+        "question_text": "What is 29 + 7?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["36", "35", "37", "20"],
+        "answer_key": "36",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 17,
+        "question_text": "What is 58 - 19?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["39", "30", "47", "53"],
+        "answer_key": "39",
+        "marks": "2",
+        "topic": "Math"
+    },
+    {
+        "id": 18,
+        "question_text": "What is 2 to the power of 10?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["256", "3000", "512", "1024"],
+        "answer_key": "1024",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 19,
+        "question_text": "How many ways can you write a string using all of the letters abcde?",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "options": ["120", "30", "42", "58"],
+        "answer_key": "120",
+        "marks": "3",
+        "topic": "Math"
+    },
+    {
+        "id": 20,
+        "question_text": "What is 7x4?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["5", "74", "0", "28"],
+        "answer_key": "28",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 21,
+        "question_text": "Why isnt any number actually random?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Computers produce random numbers using mathematical formulas so essentialy no number is actually random",
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 22,
+        "question_text": "What country uses bitcoin as a legal currency?",
+        "difficulty": "easy",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "El Salvador",
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 23,
+        "question_text": "What is the name of the decoder that helped Britain win WW2?",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Enigma Machine",
+        "marks": "1",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 24,
+        "question_text": "Who made the first automatic digital computer?",
+        "difficulty": "Hard",
+        "question_type": "multiple_choice",
+        "options": [
+            "Alan Turing",
+            "Charles Babbage",
+            "Von Neumann",
+            "Oppenheimer"
+        ],
+        "answer_key": "Charles Babbage",
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 25,
+        "question_text": "What is the 74 digit of pi?",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "options": ["5", "4", "0", "8"],
+        "answer_key": "8",
+        "marks": "4",
+        "topic": "Math"
+    },
+    {
+        "id": 26,
+        "question_text": "Who are the best computer science teachers at WBGS?",
+        "difficulty": "easy",
+        "question_type": "multiple_select",
+        "options": ["Mr Carr", "Mr Adcock"],
+        "answer_key": ["Mr Carr", "Mr Adcock"],
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 27,
+        "question_text": "What is e?",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "'e' is a mathematical constant that is the base of the natural logarithm which lays the foundation of calculus and compound interest.",
+        "marks": "3",
+        "topic": "Math"
+    },
+    {
+        "id": 28,
+        "question_text": "What is the 5th root of 243?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["45", "3", "0", "98932"],
+        "answer_key": "3",
+        "marks": "2",
+        "topic": "Math"
+    },
+    {
+        "id": 29,
+        "question_text": "What is 5x2?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["5", "74", "10", "28"],
+        "answer_key": "10",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 30,
+        "question_text": "What is the programming language used to code in the eteherum blockchain?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["Solidarity", "Python", "Java", "C++"],
+        "answer_key": "Solidarity",
+        "marks": "2",
+        "topic": "Computer science"
+    },
+    {
+        "id": 31,
+        "question_text": "What is 4x20?",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "options": ["80", "74", "0", "28"],
+        "answer_key": "80",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 32,
+        "question_text": "What is the speed of light in a vacuum?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": [
+            "3 x 10^8 m/s",
+            "2 x 10^8 m/s",
+            "1.5 x 10^8 m/s",
+            "None of the above"
+        ],
+        "answer_key": "3 x 10^8 m/s",
+        "marks": "1",
+        "topic": "Physics"
+    },
+    {
+        "id": 33,
+        "question_text": "What is Newton's First Law of Motion?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "An object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.",
+        "marks": "3",
+        "topic": "Physics"
+    },
+    {
+        "id": 34,
+        "question_text": "Which of the following are scalar quantities?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["Velocity", "Speed", "Work", "Force"],
+        "answer_key": ["Speed", "Work"],
+        "marks": "2",
+        "topic": "Physics"
+    },
+    {
+        "id": 35,
+        "question_text": "What is the SI unit of electric current?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["Volt", "Ampere", "Ohm", "Watt"],
+        "answer_key": "Ampere",
+        "marks": "1",
+        "topic": "Physics"
+    },
+    {
+        "id": 36,
+        "question_text": "What is the principle behind a lever?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "A lever works on the principle of moments, where the torque applied on one side of the fulcrum equals the torque on the other side.",
+        "marks": "3",
+        "topic": "Physics"
+    },
+    {
+        "id": 37,
+        "question_text": "Which subatomic particle determines the identity of an element?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["Electron", "Neutron", "Proton", "Quark"],
+        "answer_key": "Proton",
+        "marks": "1",
+        "topic": "Physics"
+    },
+    {
+        "id": 38,
+        "question_text": "What is the law of conservation of energy?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Energy cannot be created or destroyed; it can only be transformed from one form to another.",
+        "marks": "2",
+        "topic": "Physics"
+    },
+    {
+        "id": 39,
+        "question_text": "What are the fundamental forces of nature?",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The four fundamental forces are gravitational force, electromagnetic force, strong nuclear force, and weak nuclear force.",
+        "marks": "4",
+        "topic": "Physics"
+    },
+    {
+        "id": 40,
+        "question_text": "What is the acceleration due to gravity on Earth's surface?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["9.8 m/s^2", "10.2 m/s^2", "8.5 m/s^2", "12 m/s^2"],
+        "answer_key": "9.8 m/s^2",
+        "marks": "1",
+        "topic": "Physics"
+    },
+    {
+        "id": 41,
+        "question_text": "What is Planck's constant?",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Planck's constant is 6.626 x 10^-34 Joule seconds, and it relates the energy of a photon to its frequency.",
+        "marks": "3",
+        "topic": "Physics"
+    },
+    {
+        "id": 42,
+        "question_text": "Which of these are examples of renewable energy sources?",
+        "difficulty": "easy",
+        "question_type": "multiple_select",
+        "options": ["Solar", "Wind", "Coal", "Hydropower"],
+        "answer_key": ["Solar", "Wind", "Hydropower"],
+        "marks": "3",
+        "topic": "Physics"
+    },
+    {
+        "id": 43,
+        "question_text": "Define the concept of entropy.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Entropy is a measure of the disorder or randomness in a system, and it tends to increase in an isolated system.",
+        "marks": "3",
+        "topic": "Physics"
+    },
+    {
+        "id": 44,
+        "question_text": "Which law states that F = ma?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": [
+            "Newton's First Law",
+            "Newton's Second Law",
+            "Newton's Third Law",
+            "Law of Conservation of Momentum"
+        ],
+        "answer_key": "Newton's Second Law",
+        "marks": "1",
+        "topic": "Physics"
+    },
+    {
+        "id": 45,
+        "question_text": "Explain the photoelectric effect.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The photoelectric effect occurs when photons hit a material and eject electrons, demonstrating the particle nature of light.",
+        "marks": "4",
+        "topic": "Physics"
+    },
+    {
+        "id": 46,
+        "question_text": "Who is known as the father of computer science?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": [
+            "Alan Turing",
+            "Charles Babbage",
+            "Bill Gates",
+            "Ada Lovelace"
+        ],
+        "answer_key": "Alan Turing",
+        "marks": "1",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 47,
+        "question_text": "What does HTTP stand for?",
+        "difficulty": "easy",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "HyperText Transfer Protocol",
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 48,
+        "question_text": "Which of these are programming paradigms?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["OOP", "Functional", "Waterfall", "Agile"],
+        "answer_key": ["OOP", "Functional"],
+        "marks": "2",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 49,
+        "question_text": "What is the purpose of a compiler?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "A compiler translates high-level programming code into machine code.",
+        "marks": "3",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 50,
+        "question_text": "Explain the difference between stack and heap memory.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Stack memory stores local variables and function call information, while heap memory is used for dynamically allocated memory.",
+        "marks": "4",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 51,
+        "question_text": "What is Big-O notation used for?",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Big-O notation is used to describe the time and space complexity of algorithms.",
+        "marks": "4",
+        "topic": "Computer Science"
+    },
+    {
+        "id": 52,
+        "question_text": "What year did World War I end?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["1914", "1918", "1939", "1945"],
+        "answer_key": "1918",
+        "marks": "1",
+        "topic": "History"
+    },
+    {
+        "id": 53,
+        "question_text": "Who was the first President of the United States?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": [
+            "Thomas Jefferson",
+            "John Adams",
+            "George Washington",
+            "Abraham Lincoln"
+        ],
+        "answer_key": "George Washington",
+        "marks": "1",
+        "topic": "History"
+    },
+    {
+        "id": 54,
+        "question_text": "What were the main causes of the French Revolution?",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The French Revolution was caused by social inequality, economic hardship, and the influence of Enlightenment ideas.",
+        "marks": "3",
+        "topic": "History"
+    },
+    {
+        "id": 55,
+        "question_text": "Which two countries were involved in the Cold War?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["USA", "USSR", "Germany", "China"],
+        "answer_key": ["USA", "USSR"],
+        "marks": "2",
+        "topic": "History"
+    },
+    {
+        "id": 56,
+        "question_text": "Explain the significance of the Treaty of Versailles.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The Treaty of Versailles ended WWI and imposed severe penalties on Germany, leading to economic turmoil and contributing to WWII.",
+        "marks": "4",
+        "topic": "History"
+    },
+    {
+        "id": 57,
+        "question_text": "What is the largest desert in the world?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["Sahara", "Antarctica", "Arctic", "Gobi"],
+        "answer_key": "Antarctica",
+        "marks": "1",
+        "topic": "Geography"
+    },
+    {
+        "id": 58,
+        "question_text": "What is the capital city of Canada?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+        "answer_key": "Ottawa",
+        "marks": "1",
+        "topic": "Geography"
+    },
+    {
+        "id": 59,
+        "question_text": "What are the three longest rivers in the world?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "answer_key": ["Nile", "Amazon", "Yangtze"],
+        "marks": "3",
+        "topic": "Geography"
+    },
+    {
+        "id": 60,
+        "question_text": "Describe the Earth's tectonic plates and their role in earthquakes.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Earth's tectonic plates are large slabs of rock that float on the mantle. Their movements cause earthquakes at plate boundaries.",
+        "marks": "4",
+        "topic": "Geography"
+    },
+    {
+        "id": 61,
+        "question_text": "Which two continents are entirely in the Southern Hemisphere?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["Africa", "South America", "Australia", "Antarctica"],
+        "answer_key": ["Australia", "Antarctica"],
+        "marks": "2",
+        "topic": "Geography"
+    },
+    {
+        "id": 62,
+        "question_text": "What is the boiling point of water in Fahrenheit?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": ["100", "212", "180", "0"],
+        "answer_key": "212",
+        "marks": "1",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 63,
+        "question_text": "Who painted the Mona Lisa?",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "options": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Claude Monet"
+        ],
+        "answer_key": "Leonardo da Vinci",
+        "marks": "1",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 64,
+        "question_text": "What are the seven continents of the world?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": [
+            "Asia",
+            "Africa",
+            "North America",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "Australia"
+        ],
+        "answer_key": [
+            "Asia",
+            "Africa",
+            "North America",
+            "South America",
+            "Antarctica",
+            "Europe",
+            "Australia"
+        ],
+        "marks": "3",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 65,
+        "question_text": "Define the term 'photosynthesis'.",
+        "difficulty": "medium",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "Photosynthesis is the process by which green plants use sunlight, carbon dioxide, and water to produce glucose and oxygen.",
+        "marks": "3",
+        "topic": "General Knowledge"
+    },
+    {
+        "id": 66,
+        "question_text": "Solve for x: 5x + 3 = 23.",
+        "difficulty": "easy",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "x = 4",
+        "marks": "1",
+        "topic": "Math"
+    },
+    {
+        "id": 67,
+        "question_text": "Which of these are prime numbers?",
+        "difficulty": "medium",
+        "question_type": "multiple_select",
+        "options": ["11", "15", "19", "21"],
+        "answer_key": ["11", "19"],
+        "marks": "2",
+        "topic": "Math"
+    },
+    {
+        "id": 68,
+        "question_text": "Explain the Pythagorean Theorem.",
+        "difficulty": "hard",
+        "question_type": "long_answer",
+        "options": [],
+        "answer_key": "The Pythagorean Theorem states that in a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+        "marks": "3",
+        "topic": "Math"
     }
 ]

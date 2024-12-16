@@ -6,6 +6,8 @@ from django.utils.timezone import now
 from datetime import date
 from rest_framework_simplejwt.tokens import RefreshToken
 import json
+import os
+from rest_framework import status
 
 User = get_user_model()
 
@@ -222,3 +224,72 @@ class CompletedQuizViewTest(TestCase):
         self.assertEqual(questions[1]["marks"], 0)
         self.assertEqual(questions[1]["total_marks"], 1)
         self.assertEqual(questions[1]["is_correct"], False)
+
+class QuestionListViewTest(TestCase):
+    def setUp(self):
+        self.user = User.objects.create_user(
+            first_name="Test",
+            last_name="User",
+            date_of_birth=date(2000, 1, 1),
+            year_group=12,
+            password="testpassword"
+        )
+        refresh = RefreshToken.for_user(self.user)
+        self.access_token = str(refresh.access_token)
+        self.client = Client()
+        self.client.defaults["HTTP_AUTHORIZATION"] = f"Bearer {self.access_token}"
+        self.questions_file_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "testquestions.json"
+        )
+        self.sample_questions = [
+            {
+                "id": 1,
+                "question_text": "What is 2 + 2?",
+                "difficulty": "easy",
+                "question_type": "multiple_choice",
+                "options": ["2", "3", "4", "5"],
+                "answer_key": "4",
+                "marks": "1",
+                "topic": "Maths"
+            },
+            {
+                "id": 2,
+                "question_text": "Which of these are programming languages?",
+                "difficulty": "medium",
+                "question_type": "multi_select",
+                "options": ["Python", "HTML", "JavaScript", "CSS"],
+                "answer_key": ["Python", "JavaScript"],
+                "marks": "2",
+                "topic": "Computer Science"
+            }
+        ]
+
+        with open(self.questions_file_path, "w") as file:
+            json.dump(self.sample_questions, file)
+
+        self.url = "/api/questions/"
+
+    def tearDown(self):
+        if os.path.exists(self.questions_file_path):
+            os.remove(self.questions_file_path)
+
+    def test_question_list_view_valid_request(self):
+        response = self.client.get(self.url, {"topic": "Maths", "difficulty": "easy"})
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+        data = response.json()
+        self.assertEqual(len(data), 2)
+
+    def test_question_list_view_missing_params(self):
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+        data = response.json()
+        self.assertIn("error", data)
+
+    def test_question_list_view_no_matching_questions(self):
+        response = self.client.get(self.url, {"topic": "Computing", "difficulty": "hard"})
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+        data = response.json()
+        self.assertEqual(len(data), 0)
