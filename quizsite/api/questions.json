@@ -135,7 +135,7 @@
         "difficulty": "hard",
         "question_type": "multiple_select",
         "options": ["8", "0", "5", "4"],
-        "answer_key": ["4", "8", "8"],
+        "answer_key": ["4", "0", "8"],
         "marks": "3",
         "topic": "Math"
     },
@@ -667,11 +667,14 @@
         "options": [
             "Asia",
             "Africa",
+            "South Africa",
             "North America",
+            "Russia",
             "South America",
             "Antarctica",
             "Europe",
-            "Australia"
+            "Australia",
+            "China"
         ],
         "answer_key": [
             "Asia",
